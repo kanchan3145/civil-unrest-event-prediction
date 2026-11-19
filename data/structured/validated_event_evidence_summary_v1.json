@@ -1,0 +1,30 @@
+{
+  "stage": 22,
+  "created_at_utc": "2026-11-16T15:55:25.260478+00:00",
+  "total_processed": 18706,
+  "location_validation_status": {
+    "no_explicit_event_location_relation": 4066,
+    "missing": 9925,
+    "explicit_relation_candidate_unverified": 4217,
+    "no_event_trigger": 372,
+    "ambiguous_event_locations": 126
+  },
+  "temporal_validation_status": {
+    "missing_or_ambiguous": 16918,
+    "no_event_trigger": 184,
+    "event_near_date_candidate_unverified": 912,
+    "date_not_near_event": 268,
+    "future_context_review": 259,
+    "past_context_candidate_unverified": 157,
+    "negation_context_review": 8
+  },
+  "review_sample_size": 95,
+  "important_notes": [
+    "All extracted locations remain unverified.",
+    "Temporal proximity does not prove event date.",
+    "Future and negation checks are broad review signals.",
+    "Multiple event locations may remain ambiguous.",
+    "No incident deduplication has been performed.",
+    "No regional prediction has been performed."
+  ]
+}

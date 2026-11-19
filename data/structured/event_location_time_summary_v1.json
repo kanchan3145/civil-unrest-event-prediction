@@ -1,0 +1,27 @@
+{
+  "stage": 21,
+  "created_at_utc": "2026-11-16T15:38:22.128495+00:00",
+  "total_processed": 18706,
+  "location_resolution_status": {
+    "mention_only_unresolved": 2376,
+    "missing": 9925,
+    "contextual_candidate_unverified": 4344,
+    "multiple_mentions_unresolved": 2061
+  },
+  "date_resolution_status": {
+    "missing": 16877,
+    "relative_to_post_date_unverified": 1662,
+    "absolute_date_mention_unverified": 126,
+    "ambiguous_absolute_dates": 4,
+    "multiple_relative_dates": 37
+  },
+  "limitations": [
+    "NER location mentions may be incorrect.",
+    "Contextual candidates are not verified event locations.",
+    "Date mentions may refer to unrelated events.",
+    "Relative dates use the UTC posting date.",
+    "Multiple date mentions remain unresolved.",
+    "No geocoding or unique-event consolidation performed.",
+    "No regional event counts are produced."
+  ]
+}

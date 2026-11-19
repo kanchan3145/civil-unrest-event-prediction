@@ -1,0 +1,22 @@
+{
+  "stage": 18,
+  "total_tweets_processed": 1084452,
+  "total_event_candidates": 136551,
+  "candidate_percentage": 12.59,
+  "event_type_counts": {
+    "protest": 115712,
+    "march": 11926,
+    "strike": 4702,
+    "riot": 3188,
+    "clash": 1023
+  },
+  "processing_seconds": 168.77,
+  "limitations": [
+    "Keyword candidates are not verified events",
+    "Event type may be ambiguous",
+    "Actors and targets are lexical mentions",
+    "Post date is not necessarily event date",
+    "Event location and time remain unresolved",
+    "No DistilBERT inference performed in this stage"
+  ]
+}

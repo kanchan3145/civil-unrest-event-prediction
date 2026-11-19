@@ -1,0 +1,17 @@
+{
+    "stage": "11",
+    "method": "lightweight_rule_based_v1",
+    "total_tweets": 300,
+    "classifier_positive": 91,
+    "event_candidates": 19,
+    "review_cases": 72,
+    "not_selected_by_classifier": 209,
+    "extraction_status_counts": {
+        "not_selected_by_classifier": 209,
+        "needs_review": 72,
+        "event_candidate": 19
+    },
+    "human_verified_event_records": 0,
+    "source_labels_modified": false,
+    "note": "Event candidates are not confirmed incidents. Event dates and locations require independent validation. Regex rules may miss or misclassify contextual and multi-event tweets."
+}

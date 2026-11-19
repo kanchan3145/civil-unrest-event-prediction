@@ -1,0 +1,16 @@
+CIVIL UNREST PROJECT - DATA VALIDATION REPORT
+==================================================
+
+Total tweet records: 902401
+Earliest tweet date: 2020-11-01 03:36:57+00:00
+Latest tweet date: 2021-11-21 05:36:30+00:00
+
+Missing tweet values:
+post_id: 0
+date: 0
+location: 0
+text: 0
+language: 0
+user_hash: 0
+
+Note: ACLED and tweet datasets must be checked for compatible dates before direct comparison.

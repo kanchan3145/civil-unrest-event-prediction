@@ -1,0 +1,15 @@
+{
+    "stage": "8.7",
+    "policy": "broad_civil_unrest_event_detection",
+    "verified_training_examples": 84,
+    "candidate_examples": 300,
+    "selected_examples": 0,
+    "selected_positive": 0,
+    "selected_negative": 0,
+    "abstained": 300,
+    "positive_threshold": 0.7,
+    "negative_threshold": 0.3,
+    "human_verified_labels_modified": false,
+    "pseudo_labels_are_human_verified": false,
+    "selection_method": "tfidf_minilm_hybrid_v2_agreement"
+}

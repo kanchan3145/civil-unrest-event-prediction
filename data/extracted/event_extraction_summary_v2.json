@@ -1,0 +1,30 @@
+{
+    "stage": "11.2",
+    "method": "evidence_aware_v2",
+    "total_tweets": 300,
+    "classifier_positive": 91,
+    "event_mentions": 122,
+    "candidate_event_mentions": 46,
+    "candidate_tweets": 38,
+    "review_mentions": 74,
+    "known_audit_tweets_found": 19,
+    "tweet_status_counts": {
+        "not_selected_by_classifier": 151,
+        "classifier_negative_review": 51,
+        "insufficient_evidence": 42,
+        "event_candidate": 38,
+        "needs_review": 16,
+        "exclude_unrelated_conflict": 2
+    },
+    "event_type_counts": {
+        "clash": 29,
+        "police_action": 7,
+        "protest": 5,
+        "march": 3,
+        "rally": 1,
+        "vehicle_attack": 1
+    },
+    "human_verified_events": 0,
+    "source_labels_modified": false,
+    "note": "Automatic candidate extraction only. No factual verification or geocoding. Sentence-level rules may still mix distinct clauses, duplicate events, or misattribute locations and occurrence statuses."
+}

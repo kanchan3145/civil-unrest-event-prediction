@@ -1,0 +1,45 @@
+{
+  "scope": "Purposively stratified manual audit; not an unbiased population estimate",
+  "total_audit_rows": 89,
+  "completed_rows": 89,
+  "definite_rows_used": 86,
+  "uncertain_rows_excluded": 3,
+  "blank_rows_excluded": 0,
+  "human_positive": 52,
+  "human_negative": 34,
+  "metrics": {
+    "extraction": {
+      "precision": 0.9642857142857143,
+      "recall": 0.5192307692307693,
+      "f1": 0.675,
+      "accuracy": 0.6976744186046512,
+      "confusion_matrix_labels_0_1": [
+        [
+          33,
+          1
+        ],
+        [
+          25,
+          27
+        ]
+      ]
+    },
+    "classifier": {
+      "precision": 0.8,
+      "recall": 0.7692307692307693,
+      "f1": 0.7843137254901961,
+      "accuracy": 0.7441860465116279,
+      "confusion_matrix_labels_0_1": [
+        [
+          24,
+          10
+        ],
+        [
+          12,
+          40
+        ]
+      ]
+    }
+  },
+  "warning": "Human decisions must be independently annotated. Do not treat prior assistant assessments as ground truth. No independent external event verification performed."
+}

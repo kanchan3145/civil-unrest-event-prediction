@@ -1,0 +1,13 @@
+{
+  "version": "v4",
+  "candidate_mentions": 73,
+  "provisional_clusters": 0,
+  "clustered_mentions": 0,
+  "multi_post_clusters": 0,
+  "needs_review_mentions": 73,
+  "status_counts": {
+    "needs_location_review": 70,
+    "needs_date_review": 3
+  },
+  "note": "Conservative candidate consolidation only; not verified events or an India geocoder."
+}

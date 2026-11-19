@@ -1,0 +1,28 @@
+{
+  "total_candidates_classified": 136551,
+  "prediction_counts": {
+    "non_event": 117845,
+    "actual_incident": 18706
+  },
+  "review_required": 7710,
+  "average_positive_probability": 0.175731,
+  "stage": 19,
+  "model_version": "minilm_event_classifier_v1",
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "training_examples": 84,
+  "decision_threshold": 0.5,
+  "review_lower_bound": 0.4,
+  "review_upper_bound": 0.6,
+  "completed_chunks": 534,
+  "new_chunks_this_run": 529,
+  "processing_seconds_this_run": 1113.15,
+  "limitations": [
+    "Classifier trained on only 84 verified examples",
+    "Only 16 positive training examples",
+    "Probabilities are not calibrated",
+    "Predicted incidents are not verified incidents",
+    "Keyword prefilter can miss relevant events",
+    "Predictions do not establish event time or location",
+    "No human review performed in this stage"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "input": {
+    "resolved_path": "D:\\OLD_PC_MIGRATION\\E_Drive_Files\\IMD_Project_CivilUnrest\\data\\structured\\full_event_candidates_v1.csv",
+    "size": 55520773,
+    "mtime_ns": 1794837015238514500
+  },
+  "classifier_sha256": "851aa7eea9bbdbe9fb9158967cbb2b578e69d239bd28e992603ae6d575caf643",
+  "metadata_sha256": "e9e9fdf968cf53ad8a1e78b555a3a1531b60ca4fad42fa3669354ecb53e880d4",
+  "chunk_size": 256,
+  "embedding_batch_size": 16,
+  "model_version": "minilm_event_classifier_v1",
+  "output_columns": [
+    "minilm_positive_probability",
+    "minilm_predicted_target",
+    "minilm_predicted_category",
+    "minilm_review_required",
+    "minilm_model_version",
+    "minilm_human_verified"
+  ]
+}

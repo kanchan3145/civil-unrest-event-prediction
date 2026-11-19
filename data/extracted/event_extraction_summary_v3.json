@@ -1,0 +1,37 @@
+{
+  "stage": "11.3",
+  "total_tweets": 300,
+  "classifier_positive": 91,
+  "event_mentions": 112,
+  "candidate_mentions": 40,
+  "candidate_tweets": 39,
+  "review_mentions": 70,
+  "known_audit_found": 19,
+  "tweet_status_counts": {
+    "not_selected_by_classifier": 150,
+    "classifier_negative_review": 48,
+    "insufficient_evidence": 41,
+    "event_candidate": 39,
+    "needs_review": 20,
+    "exclude_unrelated_conflict": 2
+  },
+  "mention_status_counts": {
+    "classifier_negative_review": 49,
+    "event_candidate": 40,
+    "needs_review": 21,
+    "exclude_unrelated_conflict": 2
+  },
+  "event_type_counts": {
+    "clash": 29,
+    "protest": 3,
+    "police_action": 3,
+    "riot_or_violence": 2,
+    "rally": 1,
+    "march": 1,
+    "vehicle_attack": 1
+  },
+  "verified_incident_count": 0,
+  "deduplicated": false,
+  "labels_modified": false,
+  "warning": "Candidates are unverified. Clause rules can still miss mixed events; location is only a mention or possible location. Do not aggregate as confirmed incidents."
+}

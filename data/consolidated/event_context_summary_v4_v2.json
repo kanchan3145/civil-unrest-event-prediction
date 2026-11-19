@@ -1,0 +1,21 @@
+{
+  "version": "v4",
+  "candidate_mentions": 73,
+  "resolved_location_candidates": 23,
+  "resolved_event_date_candidates": 2,
+  "provisional_clusters_including_singletons": 23,
+  "multi_post_clusters": 0,
+  "unresolved_context_mentions": 50,
+  "location_status_counts": {
+    "missing_location": 36,
+    "rule_candidate": 23,
+    "multiple_places_review": 8,
+    "unlinked_place_review": 5,
+    "possible_foreign_event_review": 1
+  },
+  "date_source_counts": {
+    "unknown_event_date": 71,
+    "relative_today": 2
+  },
+  "warning": "Rule-based hypotheses; no human verification or independent geocoding."
+}

@@ -1,0 +1,31 @@
+{
+  "stage": 24,
+  "model": "MoritzLaurer/deberta-v3-base-zeroshot-v2.0",
+  "total_records": 95,
+  "completed_records": 95,
+  "remaining_records": 0,
+  "annotation_source": "pretrained_model_unverified",
+  "event_predictions": {
+    "event": 84,
+    "not_event": 9,
+    "uncertain": 2
+  },
+  "occurrence_predictions": {
+    "ongoing": 63,
+    "uncertain": 11,
+    "not_applicable": 9,
+    "occurred": 5,
+    "negated": 4,
+    "historical_reference": 2,
+    "planned": 1
+  },
+  "location_candidates": 32,
+  "date_candidates": 22,
+  "limitations": [
+    "No human ground truth generated",
+    "Zero-shot scores are not calibrated",
+    "Locations and dates are provisional",
+    "Multiple-event detection not implemented",
+    "No independent accuracy estimate"
+  ]
+}

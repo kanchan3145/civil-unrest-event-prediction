@@ -1,0 +1,32 @@
+{
+  "stage": 14,
+  "model": "Ridge Regression",
+  "prediction_target": "Next-week India protests and riots count",
+  "tweet_rows_processed": 1084452,
+  "tweet_rows_with_valid_dates": 1084452,
+  "overlapping_weeks": 56,
+  "training_weeks": 42,
+  "testing_weeks": 11,
+  "metrics": {
+    "baseline": {
+      "MAE": 95.2727,
+      "RMSE": 112.2181
+    },
+    "acled_only": {
+      "MAE": 85.852,
+      "RMSE": 98.1695
+    },
+    "acled_plus_social": {
+      "MAE": 85.3397,
+      "RMSE": 97.6727
+    }
+  },
+  "social_media_improves_mae": true,
+  "last_test_target_week": "2021-11-27",
+  "limitations": [
+    "Historical evaluation, not a current forecast",
+    "Keyword matches are not verified event mentions",
+    "Tweet sample may not represent all unrest in India",
+    "Only a small number of weekly observations"
+  ]
+}

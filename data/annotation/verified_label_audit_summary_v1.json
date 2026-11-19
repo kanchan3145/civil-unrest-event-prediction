@@ -1,0 +1,16 @@
+{
+    "stage": "8.6",
+    "policy": "broad_civil_unrest_event_detection",
+    "total_reviewed": 100,
+    "verified_positive": 16,
+    "verified_negative": 68,
+    "verified_uncertain": 16,
+    "priority_distribution": {
+        "low": 55,
+        "medium": 26,
+        "none": 19
+    },
+    "review_required_count": 81,
+    "human_labels_modified": false,
+    "audit_is_ground_truth": false
+}

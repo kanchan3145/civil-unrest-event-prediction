@@ -1,0 +1,46 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# Large datasets
+data/raw/
+data/processed/
+*.parquet
+*.csv
+
+# Large model artifacts
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Generated outputs
+outputs/
+
+# Logs and temporary files
+*.log
+*.tmp
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+# Label Studio virtual environment
+.labelstudio-venv/

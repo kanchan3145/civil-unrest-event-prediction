@@ -1,0 +1,115 @@
+{
+    "stage": "9",
+    "model": "distilbert-base-uncased",
+    "training_source": "D:\\OLD_PC_MIGRATION\\E_Drive_Files\\IMD_Project_CivilUnrest\\data\\annotation\\incident_labels_final_v2.csv",
+    "training_policy": "human_verified_only",
+    "random_seed": 42,
+    "max_length": 96,
+    "batch_size": 16,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "n_splits": 4,
+    "decision_threshold": 0.5,
+    "device": "cpu",
+    "total_verified_definite": 84,
+    "positive_count": 16,
+    "negative_count": 68,
+    "out_of_fold_metrics": {
+        "accuracy": 0.8095238095238095,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+            [
+                68,
+                0
+            ],
+            [
+                16,
+                0
+            ]
+        ]
+    },
+    "fold_metrics": [
+        {
+            "accuracy": 0.8095238095238095,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "confusion_matrix": [
+                [
+                    17,
+                    0
+                ],
+                [
+                    4,
+                    0
+                ]
+            ],
+            "fold": 1,
+            "train_size": 63,
+            "validation_size": 21
+        },
+        {
+            "accuracy": 0.8095238095238095,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "confusion_matrix": [
+                [
+                    17,
+                    0
+                ],
+                [
+                    4,
+                    0
+                ]
+            ],
+            "fold": 2,
+            "train_size": 63,
+            "validation_size": 21
+        },
+        {
+            "accuracy": 0.8095238095238095,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "confusion_matrix": [
+                [
+                    17,
+                    0
+                ],
+                [
+                    4,
+                    0
+                ]
+            ],
+            "fold": 3,
+            "train_size": 63,
+            "validation_size": 21
+        },
+        {
+            "accuracy": 0.8095238095238095,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "confusion_matrix": [
+                [
+                    17,
+                    0
+                ],
+                [
+                    4,
+                    0
+                ]
+            ],
+            "fold": 4,
+            "train_size": 63,
+            "validation_size": 21
+        }
+    ],
+    "training_seconds": 168.38,
+    "pseudo_labels_used": false,
+    "human_labels_modified": false,
+    "note": "Exploratory 4-fold cross-validation. No independent test set was evaluated."
+}

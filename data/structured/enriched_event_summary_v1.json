@@ -1,0 +1,40 @@
+{
+  "stage": 20,
+  "created_at_utc": "2026-11-16T15:25:58.259601+00:00",
+  "input_file": "D:\\OLD_PC_MIGRATION\\E_Drive_Files\\IMD_Project_CivilUnrest\\data\\structured\\full_event_predictions_v1.csv",
+  "total_classified_candidates_read": 136551,
+  "total_model_positive_candidates": 18706,
+  "role_evidence_status": {
+    "roles_unresolved": 16881,
+    "explicit_pattern_match": 1825
+  },
+  "occurrence_review_status": {
+    "occurrence_unverified": 17015,
+    "planned_or_future_review": 1662,
+    "negation_review": 29
+  },
+  "location_status": {
+    "missing": 18706
+  },
+  "time_status": {
+    "missing": 18630,
+    "date_mention_unresolved": 76
+  },
+  "event_type_counts": {
+    "protest": 11978,
+    "strike": 856,
+    "march": 4719,
+    "riot": 469,
+    "clash": 684
+  },
+  "review_sample_size": 100,
+  "important_notes": [
+    "Predicted incidents are not confirmed events.",
+    "Actor and target rules are conservative heuristics.",
+    "A date mention is not a resolved event date.",
+    "Existing location strings remain unverified.",
+    "Tweet post_date is not event occurrence date.",
+    "Review sample has not been human annotated.",
+    "No event deduplication performed."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "training_weeks": 46,
+  "testing_weeks": 12,
+  "model": "Ridge Regression",
+  "model_metrics": {
+    "MAE": 61.18080993284502,
+    "RMSE": 72.88787026004178
+  },
+  "baseline_metrics": {
+    "MAE": 82.41666666666667,
+    "RMSE": 94.16873154078269
+  },
+  "forecast_week": "2022-01-01",
+  "forecast_event_count": 311.23,
+  "forecast_type": "historical_backtest",
+  "note": "ACLED-only baseline. The forecast follows the last historical week, not the current calendar week."
+}

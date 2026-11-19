@@ -1,0 +1,20 @@
+{
+  "stage": 17,
+  "input_mentions": 57,
+  "structured_records": 57,
+  "event_types_detected": 57,
+  "locations_available": 3,
+  "event_times_available": 2,
+  "actors_detected": 57,
+  "targets_detected": 34,
+  "escalation_signals_detected": 31,
+  "average_argument_completeness": 0.476,
+  "limitations": [
+    "Rule-based argument enrichment, not token-level NER",
+    "Actors and targets are lexical mentions, not verified roles",
+    "Future signals do not prove an event is planned",
+    "Missing locations and dates are not invented",
+    "Completeness is not model confidence",
+    "Event records are candidate mentions, not verified incidents"
+  ]
+}
